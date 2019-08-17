@@ -83,6 +83,8 @@ import numpy as np
 
 from matplotlib import cm
 
+from mpl_toolkits.mplot3d.axes3d import Axes3D
+
 def generateUniformNRandomPoints( numberOfPoints ):
     
     points = []
