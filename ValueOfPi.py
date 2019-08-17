@@ -226,6 +226,8 @@ if __name__ == "__main__":
     
     plotCalculatedVsActualPi( numberOfPoints , calculatedPi )
     
+    plotRootOfSquareError( numberOfPoints , calculatedPi )
+    
     
     
 def plotRootOfSquareError( numberOfPoints , calculatedPi ):
